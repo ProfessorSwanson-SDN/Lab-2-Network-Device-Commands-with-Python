@@ -144,27 +144,16 @@ jobs:
         if: always()
         uses: classroom-resources/autograding-grading-reporter@v1
         env:
-          MAIN_PY_PRESENT_RESULTS: "${{ steps.main-py-present.outputs.result }}"
-          REQUIREMENTS_PRESENT_RESULTS: "${{ steps.requirements-present.outputs.result }}"
-          STEP3_MARKER_RESULTS: "${{ steps.step3-marker.outputs.result }}"
-          STEP4_MARKER_RESULTS: "${{ steps.step4-marker.outputs.result }}"
-          STEP5_MARKERS_RESULTS: "${{ steps.step5-markers.outputs.result }}"
-          STEP6_MARKER_RESULTS: "${{ steps.step6-marker.outputs.result }}"
-          STEP7_MARKER_RESULTS: "${{ steps.step7-marker.outputs.result }}"
-          EXCEPTION_HANDLING_RESULTS: "${{ steps.exception-handling.outputs.result }}"
-          STEP8_START_RESULTS: "${{ steps.step8-start.outputs.result }}"
-          STEP8_END_RESULTS: "${{ steps.step8-end.outputs.result }}"
-          LOGS_COMMITTED_RESULTS: "${{ steps.logs-committed.outputs.result }}"
+          MAIN-PY-PRESENT_RESULTS: "${{ steps.main-py-present.outputs.result }}"
+          REQUIREMENTS-PRESENT_RESULTS: "${{ steps.requirements-present.outputs.result }}"
+          STEP3-MARKER_RESULTS: "${{ steps.step3-marker.outputs.result }}"
+          STEP4-MARKER_RESULTS: "${{ steps.step4-marker.outputs.result }}"
+          STEP5-MARKERS_RESULTS: "${{ steps.step5-markers.outputs.result }}"
+          STEP6-MARKER_RESULTS: "${{ steps.step6-marker.outputs.result }}"
+          STEP7-MARKER_RESULTS: "${{ steps.step7-marker.outputs.result }}"
+          EXCEPTION-HANDLING_RESULTS: "${{ steps.exception-handling.outputs.result }}"
+          STEP8-START_RESULTS: "${{ steps.step8-start.outputs.result }}"
+          STEP8-END_RESULTS: "${{ steps.step8-end.outputs.result }}"
+          LOGS-COMMITTED_RESULTS: "${{ steps.logs-committed.outputs.result }}"
         with:
-          runners: |
-            main-py-present
-            requirements-present
-            step3-marker
-            step4-marker
-            step5-markers
-            step6-marker
-            step7-marker
-            exception-handling
-            step8-start
-            step8-end
-            logs-committed
+          runners: main-py-present,requirements-present,step3-marker,step4-marker,step5-markers,step6-marker,step7-marker,exception-handling,step8-start,step8-end,logs-committed
