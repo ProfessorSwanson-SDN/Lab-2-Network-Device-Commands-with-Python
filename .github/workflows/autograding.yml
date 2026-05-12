@@ -156,4 +156,15 @@ jobs:
           STEP8_END_RESULTS: "${{ steps.step8-end.outputs.result }}"
           LOGS_COMMITTED_RESULTS: "${{ steps.logs-committed.outputs.result }}"
         with:
-          runners: main-py-present,requirements-present,step3-marker,step4-marker,step5-markers,step6-marker,step7-marker,exception-handling,step8-start,step8-end,logs-committed
+          runners: |
+            main-py-present
+            requirements-present
+            step3-marker
+            step4-marker
+            step5-markers
+            step6-marker
+            step7-marker
+            exception-handling
+            step8-start
+            step8-end
+            logs-committed
