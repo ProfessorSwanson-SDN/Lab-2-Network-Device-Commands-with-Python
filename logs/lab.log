@@ -1,0 +1,104 @@
+INFO:root:[STEP2] Dev Container Started
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+INFO:paramiko.transport:Authentication (password) failed.
+INFO:root:CONNECT_FAIL
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+INFO:paramiko.transport:Authentication (password) failed.
+INFO:root:CONNECT_FAIL
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+INFO:paramiko.transport:Authentication (password) failed.
+INFO:root:CONNECT_FAIL
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:CONNECT_OK
+INFO:root:CMD_RUN: show ip interace brief
+INFO:root:CMD_RUN: show version
+INFO:root:CMD_RUN: show inventory
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+INFO:paramiko.transport:Authentication (password) failed.
+INFO:root:CONNECT_FAIL
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+INFO:paramiko.transport:Authentication (password) failed.
+INFO:root:CONNECT_FAIL
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+INFO:paramiko.transport:Authentication (password) failed.
+INFO:root:CONNECT_FAIL
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+INFO:paramiko.transport:Authentication (password) failed.
+INFO:root:CONNECT_FAIL
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:CONNECT_OK
+INFO:root:CMD_RUN: show ip interace brief
+INFO:root:CMD_RUN: show version
+INFO:root:CMD_RUN: show inventory
+INFO:root:PARSE_OK:show ip interface brief
+INFO:root:PARSE_OK:show version
+INFO:root:PARSE_OK:show inventory
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:CONNECT_OK
+INFO:root:CMD_RUN: show ip interace brief
+INFO:root:CMD_RUN: show version
+INFO:root:CMD_RUN: show inventory
+INFO:root:PARSE_OK:show ip interface brief
+INFO:root:PARSE_OK:show version
+INFO:root:PARSE_OK:show inventory
+INFO:root:REPORT_SAVED)
+INFO:root:LAB2-START
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+INFO:paramiko.transport:Authentication (password) failed.
+INFO:root:CONNECT_FAIL
+INFO:root:LAB2-START
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:CONNECT_OK
+INFO:root:CMD_RUN: show ip interace brief
+INFO:root:CMD_RUN: show version
+INFO:root:CMD_RUN: show inventory
+INFO:root:PARSE_OK:show ip interface brief
+INFO:root:PARSE_OK:show version
+INFO:root:PARSE_OK:show inventory
+INFO:root:REPORT_SAVED)
+INFO:root:LAB2-END
+INFO:root:LAB2-START
+INFO:root:[STEP 2] Dev Container Started
+INFO:root:CREDENTIALS_COLLECTED
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:CONNECT_OK
+INFO:root:CMD_RUN: show ip interace brief
+INFO:root:CMD_RUN: show version
+INFO:root:CMD_RUN: show inventory
+INFO:root:PARSE_OK:show ip interface brief
+INFO:root:PARSE_OK:show version
+INFO:root:PARSE_OK:show inventory
+INFO:root:REPORT_SAVED)
+INFO:root:LAB2-END
